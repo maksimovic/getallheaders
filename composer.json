@@ -1,19 +1,23 @@
 {
-	"name": "ralouphie/getallheaders",
+	"name": "maksimovic/getallheaders",
 	"description": "A polyfill for getallheaders.",
 	"license": "MIT",
 	"authors": [
 		{
 			"name": "Ralph Khattar",
 			"email": "ralph.khattar@gmail.com"
+		},
+		{
+			"name": "Oliver Maksimovic",
+			"email": "maksimovic@outlook.com",
+			"homepage": "https://github.com/maksimovic"
 		}
 	],
 	"require": {
-		"php": ">=5.6"
+		"php": "^5.3 | ^7.0 | ^8.0"
 	},
 	"require-dev": {
-		"phpunit/phpunit": "^5 || ^6.5",
-		"php-coveralls/php-coveralls": "^2.1"
+		"phpunit/phpunit": "^4.0 | ^5.0 | ^8.5 | ^9.5"
 	},
 	"autoload": {
 		"files": ["src/getallheaders.php"]

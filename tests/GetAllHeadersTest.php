@@ -22,7 +22,7 @@ class GetAllHeadersTest extends TestCase
         }
     }
 
-    public function dataWorks()
+    public static function dataWorks()
     {
         return [
             [

@@ -1,12 +1,12 @@
 getallheaders
 =============
 
-PHP `getallheaders()` polyfill. Compatible with PHP >= 5.3.
+This is a fork of https://github.com/ralouphie/getallheaders but with up-to-date CI runs and test coverage for PHP 5.6 -> 8.2
 
-[![Build Status](https://travis-ci.org/ralouphie/getallheaders.svg?branch=master)](https://travis-ci.org/ralouphie/getallheaders)
-[![Coverage Status](https://coveralls.io/repos/ralouphie/getallheaders/badge.png?branch=master)](https://coveralls.io/r/ralouphie/getallheaders?branch=master)
-[![Latest Stable Version](https://poser.pugx.org/ralouphie/getallheaders/v/stable.png)](https://packagist.org/packages/ralouphie/getallheaders)
-[![Latest Unstable Version](https://poser.pugx.org/ralouphie/getallheaders/v/unstable.png)](https://packagist.org/packages/ralouphie/getallheaders)
+PHP `getallheaders()` polyfill. Compatible with PHP >= 5.3. Tested with >=5.6.
+
+![build_status](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+[![codecov](https://codecov.io/github/maksimovic/getallheaders/graph/badge.svg?token=xoPZ9NlyGL)](https://codecov.io/github/maksimovic/getallheaders)
 [![License](https://poser.pugx.org/ralouphie/getallheaders/license.png)](https://packagist.org/packages/ralouphie/getallheaders)
 
 
@@ -17,11 +17,11 @@ This is a simple polyfill for [`getallheaders()`](http://www.php.net/manual/en/f
 For PHP version **`>= 5.6`**:
 
 ```
-composer require ralouphie/getallheaders
+composer require maksimovic/getallheaders
 ```
 
 For PHP version **`< 5.6`**:
 
 ```
-composer require ralouphie/getallheaders "^2"
+composer require maksimovic/getallheaders "^1.0.0"
 ```
