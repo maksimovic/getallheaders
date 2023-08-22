@@ -1,11 +1,14 @@
 {
-	"name": "ralouphie/getallheaders",
+	"name": "maksimovic/getallheaders",
 	"description": "A polyfill for getallheaders.",
 	"license": "MIT",
 	"authors": [
 		{
 			"name": "Ralph Khattar",
 			"email": "ralph.khattar@gmail.com"
+		},
+		{
+			"name": "Oliver Maksimovic"
 		}
 	],
 	"require": {
