@@ -1,11 +1,11 @@
 getallheaders
 =============
 
-This is a fork of https://github.com/ralouphie/getallheaders but with up-to-date CI runs and test coverage for PHP 5.6 -> 8.2
+This is a fork of https://github.com/ralouphie/getallheaders but with up-to-date CI runs and test coverage for PHP 7.0 -> 8.2
 
-PHP `getallheaders()` polyfill. Compatible with PHP >= 5.3. Tested with >=5.6.
+PHP `getallheaders()` polyfill. Compatible with PHP >= 5.3. Tested with >=7.0
 
-![build_status](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+![build_status](https://github.com/maksimovic/getallheaders/actions/workflows/ci.yml/badge.svg)
 [![codecov](https://codecov.io/github/maksimovic/getallheaders/graph/badge.svg?token=xoPZ9NlyGL)](https://codecov.io/github/maksimovic/getallheaders)
 [![License](https://poser.pugx.org/ralouphie/getallheaders/license.png)](https://packagist.org/packages/ralouphie/getallheaders)
 
