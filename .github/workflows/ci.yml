@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        php-versions: ['5.6', '7.0', '7.1', '7.2', '7.3', '7.4', '8.0', '8.1', '8.2']
+        php-versions: ['7.0', '7.1', '7.2', '7.3', '7.4', '8.0', '8.1', '8.2']
     name: PHP ${{ matrix.php-versions }} Test
     steps:
       - name: Checkout Code
@@ -28,7 +28,6 @@ jobs:
         with:
           bootstrap: vendor/autoload.php
           configuration: phpunit.xml
-          if: ${{ matrix.php-versions != '5.6' }}
           php_extensions: xdebug
           php_version: ${{ matrix.php-versions }}
           args: tests --coverage-clover ./coverage.xml
