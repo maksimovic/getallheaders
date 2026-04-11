@@ -1,7 +1,7 @@
 getallheaders
 =============
 
-This is a fork of https://github.com/ralouphie/getallheaders but with up-to-date CI runs and test coverage for PHP 7.0 -> 8.2
+This is a fork of https://github.com/ralouphie/getallheaders but with up-to-date CI runs and test coverage for PHP 7.0 -> 8.5
 
 PHP `getallheaders()` polyfill. Compatible with PHP >= 5.3. Tested with >=7.0
 
