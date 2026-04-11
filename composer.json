@@ -29,5 +29,9 @@
 		"psr-4": {
 			"getallheaders\\Tests\\": "tests/"
 		}
+	},
+	"scripts": {
+		"test": "vendor/bin/phpunit tests",
+		"test:coverage": "XDEBUG_MODE=coverage vendor/bin/phpunit tests --coverage-clover ./coverage.xml"
 	}
 }
